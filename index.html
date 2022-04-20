@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!--The following lines are comments 
+    Author : Dee
+    Date Created : March 2022
+    Page Description : Home page 
+    Modifications : March 2022 -->
+
+<html lang="en"> 
+<head>
+    <meta charset="utf-8"  /> 
+    <meta name="Description" content="Travel website"> 
+    <meta name="keywords" content="Travel, Lithuania, places">  
+    <meta name="author" content="Deimante"> 
+    <link rel="stylesheet" type="text/css" href="mainstyles/styles.css" >     
+    <link rel="icon" type="image/gif" href="images/favicon-16x16.png" size="16x16" >  
+    <title> Travel Lithuania </title>  
+
+<style>
+	#sbnewsearch
+    {
+		float: right; 
+		padding: 5px;  
+	}
+
+	.sbtextinput
+    {
+		padding: 5px;
+		font-family: Arial; 
+		font-size: 14px;
+		border: 1px solid #0011ff; 
+    }
+
+	.sbbutton 
+    {
+		padding: 5px; 
+        border: 1px solid #0011ff; 
+		font-family: Arial; 
+		font-size: 15px; 
+		cursor: pointer; 
+		text-decoration: bold; 
+		color: #ff0000; 
+	} 
+
+	.sbclear 
+    {
+		clear: both; 
+	} 
+</style>
+</head> 
+
+<body>  
+    <header> 
+        <center><h1> Travel Lithuania </h1></center> 
+    </header> 
+
+<nav>
+<ul>
+    <li id="active" > <a href="index.html" > Home </a></li> 
+    <li> <a href="about.html" > About </a></li> 
+    <li> <a href="places.html" > Places </a></li> 
+    <li> <a href="prices.html" > Prices </a></li> 
+    <li> <a href="survey.html" > Survey </a></li> 
+     <!-- HTML for SEARCH BAR --> 
+	<div> 
+		<form id="sbnewsearch" method="get" action="http://www.google.com"> 
+		        <input type="text" class="sbtextinput" maxlength="120" ><input type="submit" value="search" class="sbbutton"> 
+		</form>
+	<div class="sbclear"></div> 
+    </ul>
+</nav>  
+
+<article> 
+        <img src="images/hillofcrosses.jpg" alt="hill of crosses" id="photo1" > 
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/V4veBuE_QA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="photo2" ></iframe> 
+        <img src="images/vilnius.jpg" alt="vilnius" id="photo3" >  
+</article> 
+
+<ul> 
+    <li id="active" > <a href="index.html" style="color: #f3b104;" > Home </a></li> 
+    <li> <a href="about.html" > About </a></li> 
+    <li> <a href="places.html" > Places </a></li> 
+    <li> <a href="prices.html" > Prices </a></li> 
+    <li> <a href="survey.html" > Survey </a></li> 
+</ul>
+
+<footer> 
+    <small> &copy; Travel Lithuania - College Project Website </small> 
+</footer>
+ 
+</body> 
+</html> 

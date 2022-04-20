@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<!--The following lines are comments 
+    Author : Dee
+    Date Created : March 2022
+    Page Description : Home page 
+    Modifications : March 2022 -->
+
+<html lang="en" > 
+<head>
+    <meta charset="utf-8" />
+    <meta name="Description" content="Travel website" > 
+    <meta name="keywords" content="send us a query, send us feedback" >  
+    <meta name="author" content="Deimante" > 
+    <link rel="stylesheet" type="text/css" href="mainstyles/styles.css" >     
+    <link rel="icon" type="image/gif" href="images/favicon-16x16.png" size="16x16" >  
+    <title> Survey </title>  
+</head> 
+
+<body> 
+    <header> 
+        <center><h1> Website Survey </h1></center> 
+    </header> 
+
+    <a href="#bottom" style="color:aquamarine;" > Go to bottom </a>
+    <a id="top" ></a> 
+
+    <nav>
+        <ul>
+            <li id="active" > <a href="index.html" > Home </a></li> 
+            <li> <a href="about.html" > About </a></li> 
+            <li> <a href="places.html" > Places </a></li> 
+            <li> <a href="prices.html" > Prices </a></li> 
+            <li> <a href="survey.html" > Survey </a></li> 
+             <!-- HTML for SEARCH BAR --> 
+            <div> 
+            <form id="sbnewsearch" method="get" action="http://www.google.com"> 
+                    <input type="text" class="sbtextinput" maxlength="120" ><input type="submit" value="search" class="sbbutton"> 
+            </form>
+        <div class="sbclear"></div> 
+        </ul>    
+    </nav>  
+
+<!-- CSS styles for standard search box -->
+    <style type="text/css"> 
+    
+        #sbnewsearch
+        {
+            float: right; 
+            padding: 5px;  
+        }
+    
+        .sbtextinput
+        {
+            padding: 5px;
+            font-family: Arial; 
+            font-size: 14px;
+            border: 1px solid #0011ff; 
+        }
+    
+        .sbbutton 
+        {
+            padding: 5px; 
+            border: 1px solid #0011ff; 
+            font-family: Arial; 
+            font-size: 15px; 
+            cursor: pointer; 
+            text-decoration: bold; 
+            color: #ff0000; 
+        } 
+    
+        .sbclear 
+        {
+            clear: both; 
+        } 
+
+        body 
+        {
+            font-family: sans-serif;
+            background-image: url(Image/Saint_Peters.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;
+        }
+
+        main 
+        {
+            margin: 15px 200px;
+            padding: 20px;
+            border: black solid 1px;
+            background: white;
+            min-height: 500px;
+        }
+        
+        header p 
+        {
+            font-style: italic;
+            text-align: center;
+            font-weight: 900;
+        }
+
+        .required 
+        {
+            font-weight: bold;
+            color: red; 
+        }
+    </style>
+    
+<body> 
+    <header>
+        <p> Any queries or feedback please Complete and Submit  </p>
+    </header> 
+
+<main>
+    <section>
+        <h3> Please enter the following information: </h3> 
+        <form action="http:/foo.com" method="post" >
+        <label for="first_name" > First Name: <span class="required" > * </span></label> 
+        <input type="text" name="first_name" id="first_name" autofocus required ><br> 
+        <label for="last_name" > Last Name:<span class="required" > * </span></label> 
+        <input type="text" name="Last_Name" id="last_name" required ><br> 
+        <label for="email" > Email: <span class="required" > * </span></label> 
+        <input type="text" name="Email" id="Email" required placeholder="test@example.com" ><br> 
+        <label for="gender" > Gender: </label>
+        <input type="radio" id="gender" name="gender" value="male" > Male 
+        <input type="radio" id="gender" name="gender" value="female" > Female 
+        <input type="radio" id="gender" name="gender" value="other" > Other <br> 
+        <label for="Internet" > Heard of us: </label> 
+
+        <fieldset>
+            <input type="checkbox" id="internet" name="internet" value="internet" checked > Internet <br>
+            <input type="checkbox" class="marginal" id="hear" value="paper" > Newspaper <br>
+            <input type="checkbox" class="marginal" id="hear" value="friend" > Friend <br>
+            <input type="checkbox" class="marginal" id="hear" value="add" > Others <br> 
+        </fieldset><br> 
+
+    <label for="message" > Query/Feedback: </label> 
+        <textarea cols="50" rows="6" 
+        id=message name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200" ></textarea><br>
+        <input type="submit" name="submit" id="button" value="Submit" >
+        <input type="reset" name="reset" id="reset" > 
+        </form> 
+        <p style="margin-left: 138px" > <span class="required" >*</span> <em style="color:black;" > indicates a required field </em></p> 
+    </section>
+</main> 
+
+<a href="#top" style="color:aquamarine;" > Go to top </a>
+<a id="bottom" ></a> 
+
+<footer> 
+    <small> &copy; Travel Lithuania - College Project Website </small> 
+</footer> 
+</body> 
+</html> 
+

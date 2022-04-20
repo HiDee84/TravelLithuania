@@ -1,0 +1,135 @@
+nav 
+{
+    background-color: rgb(152, 201, 164);  
+    padding: 5px;
+    border: 1px solid rgb(3, 49, 117); 
+    border-radius: 5px; 
+    position: relative; 
+} 
+
+nav ul li 
+{ 
+    background-color:rgb(152, 201, 164);  
+    display: inline; 
+    padding: 1px; 
+    margin-right: 5%; 
+    margin-left: 5%; 
+}
+
+#photo1
+{
+    width: 25%; 
+    float: left; 
+    margin-top: 15px; 
+    margin-left: 2em; 
+}
+
+#photo2
+{ 
+    float: center; 
+    margin-top: 15px; 
+    margin-left: 1em;
+}
+
+#photo3
+{
+    width: 25%; 
+    float: right; 
+    margin-top: 15px; 
+    margin-right: 2em; 
+    margin-left: 1em; 
+}
+
+#flag1
+{
+    width: 1200px;
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 20px; 
+}
+
+footer 
+{
+    clear: both;
+    border: 1px solid rgb(0, 102, 255); 
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+} 
+
+body
+{
+    background-color: lightsteelblue; 
+    font-family: verdana; 
+    color: rgb(0, 0, 0); 
+    border: 5px; 
+}
+
+p  
+{
+    font-family: Verdana;
+    text-decoration: solid; 
+    text-align: inherit;
+    color: whitesmoke; 
+} 
+
+h2, h3
+{
+    color: rgb(26, 0, 59); 
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline; 
+    text-align: center;
+}
+
+h1
+{
+    color: rgb(136, 15, 192);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline; 
+    text-align: center; 
+}
+
+nav ul li a 
+{
+    color: white; 
+    text-decoration: none;
+}
+
+nav ul li:hover 
+{
+    background-color: #415000; 
+}
+
+main a
+{
+    color:rgb(2, 63, 45); 
+    text-decoration: underline; 
+}
+
+section
+{
+    margin-top: 5px; 
+    border: 2px double red; 
+} 
+
+table, th, tr, td  
+{
+    border: 5px solid purple; 
+    border-collapse: collapse; 
+    text-align: center; 
+} 
+
+aside
+{
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 315px; 
+    margin-bottom: 15px; 
+    margin: center; 
+    font-style: bold italic;
+    background-color: blanchedalmond; 
+} 
